@@ -1,0 +1,67 @@
+Module contents
+=================
+
+.. automodule:: servico_consultar_situacao_lote_rps_resposta.xsd
+    :members:
+    :undoc-members:
+    :show-inheritance:
+.. automodule:: servico_consultar_lote_rps_resposta.xsd
+    :members:
+    :undoc-members:
+    :show-inheritance:
+.. automodule:: servico_consultar_nfse_envio.xsd
+    :members:
+    :undoc-members:
+    :show-inheritance:
+.. automodule:: servico_consultar_lote_rps_envio.xsd
+    :members:
+    :undoc-members:
+    :show-inheritance:
+.. automodule:: servico_enviar_lote_rps_resposta.xsd
+    :members:
+    :undoc-members:
+    :show-inheritance:
+.. automodule:: Servico_Cancelar_justificativa_tipo_complexos.xsd
+    :members:
+    :undoc-members:
+    :show-inheritance:
+.. automodule:: servico_consultar_dados_cadastrais_envio.xsd
+    :members:
+    :undoc-members:
+    :show-inheritance:
+.. automodule:: servico_consultar_nfse_rps_envio.xsd
+    :members:
+    :undoc-members:
+    :show-inheritance:
+.. automodule:: Servico_Cancelar_justificativa.xsd
+    :members:
+    :undoc-members:
+    :show-inheritance:
+.. automodule:: servico_consultar_situacao_lote_rps_envio.xsd
+    :members:
+    :undoc-members:
+    :show-inheritance:
+.. automodule:: servico_consultar_nfse_rps_resposta.xsd
+    :members:
+    :undoc-members:
+    :show-inheritance:
+.. automodule:: servico_consultar_nfse_resposta.xsd
+    :members:
+    :undoc-members:
+    :show-inheritance:
+.. automodule:: servico_cancelar_nfse_envio.xsd
+    :members:
+    :undoc-members:
+    :show-inheritance:
+.. automodule:: servico_consultar_dados_cadastrais_resposta.xsd
+    :members:
+    :undoc-members:
+    :show-inheritance:
+.. automodule:: servico_enviar_lote_rps_envio.xsd
+    :members:
+    :undoc-members:
+    :show-inheritance:
+.. automodule:: servico_cancelar_nfse_resposta.xsd
+    :members:
+    :undoc-members:
+    :show-inheritance:
