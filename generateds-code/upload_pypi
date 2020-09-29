@@ -1,0 +1,6 @@
+#!/bin/bash -x
+# python setup.py sdist --formats=gztar upload
+# python setup.py bdist_egg upload
+#python setup.py register sdist --formats=gztar bdist_egg upload
+twine upload $1.tar.gz $1-py3.8.egg
+

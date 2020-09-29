@@ -1,0 +1,4 @@
+[submodule "erpbrasil.edoc.gen"]
+	path = erpbrasil.edoc.gen
+	url = https://github.com/akretion/erpbrasil.edoc.gen/
+	branch = generate_python-standard-generateDS-package
