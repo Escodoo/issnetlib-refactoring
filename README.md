@@ -15,11 +15,16 @@
     source ./bin/activate
 
     cd generateds-code
-
     pip install .
+    cd ..
 
+    cd erpbrasil.edoc.gen
+    pip install .
     cd ..
     
-    python3 ~/DEV/erpbrasil.edoc.gen/src/erpbrasil/edoc/gen/download_schema.py -n issnet -v v1.00 -u https://github.com/Escodoo/edoc-gen/raw/master-escodoo-test/Manuais/Schemas.zip
+    mkdir resultado
+    
+    python3 ./erpbrasil.edoc.gen/src/erpbrasil/edoc/gen/download_schema.py -n issnet -v v1.00 -u https://github.com/Escodoo/edoc-gen/raw/master-escodoo-test/Manuais/Schemas.zip -t $PWD/resultado
 
-    python3 ~/DEV/erpbrasil.edoc.gen/src/erpbrasil/edoc/gen/generate_python.py -n issnet -v v1.00
+    python3 ./erpbrasil.edoc.gen/src/erpbrasil/edoc/gen/generate_python.py -n issnet -v v1.00 -s $PWD/resultado/schemas -d $PWD/resultado
+
